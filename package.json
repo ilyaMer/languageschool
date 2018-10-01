@@ -1,0 +1,29 @@
+{
+  "name": "2018_10_languageschool",
+  "version": "1.0.0",
+  "description": "Website for language school",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilyaMer/languageschool.git"
+  },
+  "author": "Ilya Merzlyakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilyaMer/languageschool/issues"
+  },
+  "homepage": "https://github.com/ilyaMer/languageschool#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.14.4"
+  }
+}
