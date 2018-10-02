@@ -1,0 +1,49 @@
+.link-bar {
+  background-color: #00247d;
+  color: #ffffff;
+
+}
+
+.link-bar a {
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.link-bar a:hover {
+  color: #9a9a9a;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.btn-outline-primary {
+  color: #cf142b;
+  border: 1px solid #cf142b;
+}
+
+.jumbotron {
+  background-color: #fff;
+}
+
+.bs-logo {
+  font-size: 36px;
+  line-height: 16px;
+  /* background-color: red; */
+}
+
+.bs-logo__head {
+  color: #ffffff;
+    background-color: red;
+    border-radius: 10px;
+    padding: 3px 5px;
+}
+
+.bs-logo__caption {
+  font-size: 12px;
+  line-height: 10px;
+  border: 1px solid green;
+}
+
+.bs-logo-wrapper {
+  min-width: 350px;
+}
