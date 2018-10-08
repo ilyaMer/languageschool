@@ -17,13 +17,25 @@
 }
 
 .btn-outline-primary {
-  color: #cf142b;
+  color: #FF0000;
   border: 1px solid #cf142b;
 }
 
-.jumbotron {
-  background-color: #fff;
+.btn-outline-primary:hover {
+  background-color: #cf142b;
+  color:  #ffffff;
 }
+
+.page-header {
+  background-color: #fff;
+  border: 1px solid #fff;
+  /* border: 1px dashed red; */
+
+
+  padding: 60px 25px 0px;
+}
+
+
 
 .bs-logo {
   font-size: 36px;
@@ -36,14 +48,70 @@
     background-color: red;
     border-radius: 10px;
     padding: 3px 5px;
+    float: right;
+    width: 270px;
 }
 
-.bs-logo__caption {
-  font-size: 12px;
-  line-height: 10px;
-  border: 1px solid green;
+.bs-logo p {
+  font-size: 16px;
+  line-height: 16px;
+  /* border: 1px solid green; */
+  width: 270px;
+
+}
+
+.navbar-light {
+  /* border: 1px solid purple;
+  padding: 0px; */
 }
 
 .bs-logo-wrapper {
-  min-width: 350px;
+  width: 298px;
+  /* border: 1px dashed blue; */
+  display: flex;
+  flex-direction: column;
+
+}
+
+.navbar-collapse {
+  /* border: 1px solid grey */
+}
+
+.container {
+  /* border: 1px solid green; */
+}
+
+.red {
+  background-color: red;
+  padding: 30px 0px;
+  font-size: 20px;
+
+}
+.green {
+  background-color: green;
+
+}
+
+.footer {
+    background-color: #00247d;
+    color: #ffffff;
+}
+
+.social-bottoms a
+ {
+  border-radius: 50%;
+  background-color:#ffffff;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 3px;
+  color: #00247d;
+  text-decoration: none;
+
+}
+.footer {
+  padding: 30px 0;
 }
